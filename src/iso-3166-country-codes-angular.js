@@ -5,6 +5,7 @@ angular.module('iso-3166-country-codes', [])
     var holder = {};
 
     holder.codeToCountry = {
+      '$$': 'International',
       'AF': 'Afghanistan',
       'AX': 'Åland Islands',
       'AL': 'Albania',
